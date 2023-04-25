@@ -1,3 +1,5 @@
 rootProject.name = 'spring-micro-demo'
 
 includeBuild 'eurika-server'
+includeBuild 'eurika-client'
+includeBuild 'api-gateway'
