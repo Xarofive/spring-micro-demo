@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/main")
 public class RestClientController {
 
-//    @Value("${eureka.instance.instance-id}")
-//    private String id;
-//
-//    @GetMapping("/id")
-//    public String getId() {
-//        return id;
-//    }
+    @Value("${eureka.instance.instance-id}")
+    private String id;
+
+    @GetMapping("/id")
+    public String getId() {
+        return id;
+    }
 }
